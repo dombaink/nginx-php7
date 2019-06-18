@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'docke ps'
+        sh 'docker ps'
       }
     }
   }
